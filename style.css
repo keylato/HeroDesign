@@ -1,0 +1,54 @@
+.hero{
+    width: 100vw; 
+    height: 100vh;
+    background-color: plum;
+    position: relative;
+
+}
+.content{
+    width: 100vw;
+    height: 300vh;
+}
+
+.hero-content .inicio .text{
+    margin: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+
+    
+}
+.hero-content{
+    background-color: purple;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -150px;
+    
+}
+.buttonbox .button{
+    margin: auto;
+    background-color:lightpink;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    font-size: 35px;
+    border-color:lightpink;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.buttonbox .button{
+    grid-area: button;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.buttonbox .button:hover{
+    background-color: hotpink;
+}
